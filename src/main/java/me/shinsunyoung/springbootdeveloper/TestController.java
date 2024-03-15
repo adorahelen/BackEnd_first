@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class TestController {
 
-    @Autowired
+    @Autowired // 테스트 빈 주입
     TestService testService;
 
     @GetMapping("/test")

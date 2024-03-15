@@ -7,8 +7,9 @@ import java.util.List;
 
 @Service
 public class TestService {
+
     @Autowired
-    MemberRepository memberRepository;
+    MemberRepository memberRepository; // 빈 주입
 
     public List<Member> getAllMembers() {
         return memberRepository.findAll();
