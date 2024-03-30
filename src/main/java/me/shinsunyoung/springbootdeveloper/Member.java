@@ -1,3 +1,4 @@
+/*
 package me.shinsunyoung.springbootdeveloper;
 
 import jakarta.persistence.*;
@@ -19,4 +20,4 @@ public class Member {
 
     @Column(name = "name", nullable = false)
     private String name;
-}
+}*/
